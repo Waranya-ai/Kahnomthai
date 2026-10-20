@@ -1,0 +1,6 @@
+{
+  "name": "เสน่ห์จันทน์ - ระบบสั่งขนมไทย & จัดการยอดขาย",
+  "description": "ระบบจัดการเมนูร้านขนมไทยโบราณ สั่งอาหารผ่าน QR Code ชำระเงินออนไลน์แบบเรียลไทม์ และแดชบอร์ดสรุปยอดขายรายวัน",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

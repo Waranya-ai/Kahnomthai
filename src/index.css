@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-thai: 'Prompt', sans-serif;
+    --font-serif: 'Noto Serif Thai', serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-thai);
+    color: #292524;
+    background-color: #faf7f2;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-serif-thai {
+  font-family: 'Noto Serif Thai', serif;
+}
+
+.font-thai {
+  font-family: 'Prompt', sans-serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
